@@ -1,0 +1,1 @@
+insert into user_tbl (name,password) values('kyaw','admin');
