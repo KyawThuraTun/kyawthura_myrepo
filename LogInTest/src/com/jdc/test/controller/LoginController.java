@@ -59,7 +59,7 @@ public class LoginController {
 			stage.setScene(new Scene(loader.load()));
 			stage.show();
 		} catch (Exception e) {
-			
+			System.out.println(e.getMessage());
 			message.setText(e.getMessage());
 		}
 		
